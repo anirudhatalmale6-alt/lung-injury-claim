@@ -592,7 +592,7 @@ document.getElementById('claimForm').addEventListener('submit', async function(e
   data.source = 'LungInjuryClaim.com';
 
   try {
-    await fetch('APPS_SCRIPT_URL_PLACEHOLDER', {
+    await fetch('https://script.google.com/a/macros/legaladvocategroup.com/s/AKfycbxpHUMuwBqWyl-P88mktcvLYZz9U74z5jRUTfuUiZxs7ECDxTCejVgUD9aGcBRNtQ0q/exec', {
       method: 'POST',
       body: JSON.stringify(data),
       mode: 'no-cors'
